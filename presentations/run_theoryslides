@@ -1,1 +1,1 @@
-ipython nbconvert --to slides --post serve Theoretical\ presentation.ipynb
+ipython nbconvert --to slides --post serve theoretical.ipynb

@@ -1,1 +1,1 @@
-ipython nbconvert --to slides --post serve DEMO\ Introduction\ to\ Python.ipynb
+ipython nbconvert --to slides --post serve python_demo.ipynb
