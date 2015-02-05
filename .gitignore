@@ -1,5 +1,3 @@
 crawler/output/
 .ipynb_checkpoints/
 *.html
-*.ipynb*
-reveal.js/
