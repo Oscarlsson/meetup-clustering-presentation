@@ -1780,7 +1780,7 @@ Hang around and discuss clustering and machine learning. </p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 400%"> Introduction to clustering and feature enginneering <h1></p>
+<h1 style="font-size: 400%"> Introduction to clustering and feature enginneering </h1>
 </div>
 </div>
 </div><aside class="notes">
@@ -1840,7 +1840,7 @@ Silhouette score</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 300%"> The problem of clustering <h1></p>
+<h1 style="font-size: 300%"> The problem of clustering </h1>
 </div>
 </div>
 </div><aside class="notes">
@@ -1866,7 +1866,7 @@ Silhouette score</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 300%"> Clustering is the task of <strong>grouping</strong> a set of object in such a way that objects in the same group are more <strong>similar</strong> to each other than to those in other groups. <h1 style="font-size: 400%"></p>
+<h1 style="font-size: 300%"> Clustering is the task of <strong>grouping</strong> a set of object in such a way that objects in the same group are more <strong>similar</strong> to each other than to those in other groups. </h1>
 </div>
 </div>
 </div><aside class="notes">
@@ -1879,24 +1879,21 @@ Silhouette score</p>
 <p>What is interesting in this is the resulting groups. 
 What objects ended up in the same cluster, and why? and what does that tell us?</p>
 <p>two important words - <strong> grouping </strong> and <strong>similiar</strong></p>
-<h1 id="-grouping-group-cluster"><strong>Grouping</strong> - group = cluster</h1>
-<p>Each group could represent or tell us about something the objects share, some <strong>characteristic</strong>.</p>
-<h1 id="-similiar-two-arbitrary-objects-"><strong>Similiar - two arbitrary objects</strong>.</h1>
-<p>In clustering, how we define two objects to be similar has great importance to the output.
-So, how do define that two “objects” or “samples” in our data is similar? </p>
+<h1 style="font-size: 300%"> Grouping similar objects </h1>
 </div>
 </div>
 </div>
-    </aside></section>
-    </section><section>
-    <section>
-    
+    </aside>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 300%"> Grouping similar objects <h1></p>
+<h3 id="-grouping-group-cluster"><strong>Grouping</strong> - group = cluster</h3>
+<p>Each group could represent or tell us about something the objects share, some <strong>characteristic</strong>.</p>
+<h4 id="-similiar-two-arbitrary-objects-"><strong>Similiar - two arbitrary objects</strong>.</h4>
+<p>In clustering, how we define two objects to be similar has great importance to the output.
+So, how do define that two “objects” or “samples” in our data is similar? </p>
 </div>
 </div>
 </div></section>
@@ -1941,7 +1938,7 @@ But before we talk about unsupervised - I would like to mention Supervised Learn
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 300%">  Supervised Learning <h1></p>
+<h1 style="font-size: 300%">  Supervised Learning </h1>
 </div>
 </div>
 </div><aside class="notes">
@@ -1956,10 +1953,10 @@ Explained just very brielfy supervised learning is when </p>
 <p>we know know a <strong>structure (labeling of data)</strong> and want to </p>
 <p><strong>train a model</strong></p>
 <p><em>so that it can <em>*reproduce this structure on unknown data</em></em>. </p>
-<p>If you have heard about <strong>classification</strong> we train a classifier on <strong>training data</strong> and categorize new samples with the model.
-So we have the data: X
-and we have the corresponding labels: Y</p>
-<p>But training data is expensive. Not many have this assignment, it is much more common with just X</p>
+<p>If you have heard about <strong>classification</strong> we train a classifier on <strong>training data</strong> and categorize new samples with the model.</p>
+<p>So we have the data: <strong>X</strong>
+and we have the corresponding labels: <strong>Y</strong></p>
+<p>But <strong>training data is expensive</strong>. Not many have this assignment, it is much more common with just X</p>
 <ul>
 <li>Just Documents - Just a lot of data.</li>
 </ul>
@@ -1973,16 +1970,20 @@ and we have the corresponding labels: Y</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center><h1 style="font-size: 300%"> We have the data X and we have the labels Y <h1></center>
-<center><h1 style="font-size: 300%"> 
-(documents 
-and 
-categories)
-<h1></center>
+<center><h1 style="font-size: 300%"> data X and the labels Y </h1></center>
 </div>
 </div>
 </div>
-    </div></section>
+    </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center><h1 style="font-size: 300%"> (documents and categories)</h1></center>
+</div>
+</div>
+</div></section>
     </section><section>
     <section>
     
@@ -2001,8 +2002,18 @@ categories)
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center><h1 style="font-size: 300%"> The Data X only <h1></center>
-<center><h1 style="font-size: 300%"> (DOCUMENTS ONLY) <h1></center>
+<center><h1 style="font-size: 300%"> Only X </h1></center>
+</div>
+</div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center><h1 style="font-size: 300%"> (documents only) </h1></center>
 </div>
 </div>
 </div>
@@ -2033,10 +2044,22 @@ Depending on what we use as the data</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="font-size: 300%"> Feature Engineering <h1></p>
+<h1 style="font-size: 300%"> Feature Engineering </h1>
 </div>
 </div>
-</div></section>
+</div><aside class="notes">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We are not talking about <strong>software/product features</strong> but feature as some <strong>PROPERTY</strong> we observe in our data.</p>
+<p>One feature is an <strong>individual measurable property observed</strong>.</p>
+</div>
+</div>
+</div>
+    </aside></section>
     </section><section>
     <section>
     
@@ -2060,8 +2083,6 @@ $$x_1 =   \begin{pmatrix} f_1, &amp; f_2, &amp; f_3, &amp; f_4, &amp; \dots, &am
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We are not talking about <strong>software features</strong> but feature as some <strong>PROPERTY</strong> we observe in our data.</p>
-<p>One feature is an <strong>individual measurable property observed</strong>.</p>
 <p>Big X is a feature matrix of size n_samples times n_features</p>
 <p>small x is a <strong>vector of features</strong>: refered to as <strong>Feature vector</strong></p>
 <p>The usual assumption of a algorithm is that the inpux $X$ is <strong>NUMERICAL</strong> </p>
@@ -2077,12 +2098,14 @@ $$x_1 =   \begin{pmatrix} f_1, &amp; f_2, &amp; f_3, &amp; f_4, &amp; \dots, &am
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center> <h2 style="font-size: 200%"> 
+<center> 
+<h2 style="font-size: 200%"> 
 Define X means  <br>
 define each $x_i$ <br>
 means decide each $f_i$ <br>
 = <br>
 Feature Engineering
+</h2>
 </center>
 </div>
 </div>
@@ -2098,11 +2121,20 @@ Feature Engineering
 <h1 id="we-have-0-documents">We have $n$ DOCUMENTS</h1>
 <h1 id="each-document-1-is-a-numerical-vector">Each document $x_i$ is a numerical vector</h1>
 <h1 id="we-design-the-meaning-of-each-2-">We design the meaning of each $f_i$</h1>
-<p><br></p>
+</div>
+</div>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="features-the-words-the-datetime-the-font-used-">Features: The words? The datetime? The font used?</h1>
 </div>
 </div>
-</div><aside class="notes">
+</div>
+    </div><aside class="notes">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -2113,9 +2145,6 @@ Feature Engineering
 we can use the <strong>“BAG-OF-WORDS MODEL”</strong> to present each lyrics.</p>
 <p>Then the<strong> occurence of each word</strong> is used as a <strong>feature</strong>.
 More on that in the demo after the break.</p>
-<p>=== </p>
-<p>And selecting the <strong>“perfect features”</strong> is not straight forward and requires <strong>experimenting</strong> and <strong>iteraction</strong>.</p>
-<p>But when we have chosen how to describe our data, X, we are ready for the clustering algorithms.</p>
 </div>
 </div>
 </div>
@@ -2138,18 +2167,26 @@ $$</p>
 <h1 id="-1-and-2-both-share-3-">$document_1$ and $document_3$ both share $subject_1$</h1>
 </div>
 </div>
-</div>
+</div><aside class="notes">
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>If what we want to cluster is users and the relationship to find is who listens to the same music, X should be build up of features such as:</p>
-<p>Artist names, Track names, genres of artists and the quantities the number of occurrences. 
-So if a user listen to a artist a lot our data will represent that. </p>
+<p>Here the hidden structure is the relationship between our documents and the subject</p>
+<ul>
+<li>Document 1 = News article about CPUS</li>
+<li>Document 2 = Blog post about Python</li>
+<li>Subject 1 = Computers</li>
+</ul>
+<p>=== </p>
+<p>And selecting the <strong>“perfect features”</strong> is not straight forward and requires <strong>experimenting</strong> and <strong>iteraction</strong>.</p>
+<p>But when we have chosen how to describe our data, X, we are ready for the clustering algorithms.</p>
 </div>
 </div>
-</div></section>
+</div>
+    </aside></section>
     </section><section>
     <section>
     
@@ -2229,10 +2266,10 @@ as similarity. Euclidean, cosine etc.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="the-algorithm-">The algorithm:</h2>
 <h3 id="specify-k-clusters">Specify K clusters</h3>
-<h3 id="1-randomly-create-k-partitions">1. Randomly create k partitions</h3>
-<h3 id="3-calculate-centroid-of-partitions-with-the-mean-">3. Calculate centroid of partitions (with the mean)</h3>
-<h3 id="4-associate-samples-to-their-closest-center-with-squared-euclidean-distance-">4. Associate samples to their closest center (with squared euclidean distance)</h3>
-<h3 id="5-repeat-until-changes-very-little">5. Repeat until changes very little</h3>
+<h3 id="1-randomly-create-k-clusters">1. Randomly create k clusters</h3>
+<h3 id="3-calculate-centroid-of-each-cluster-with-the-mean-">3. Calculate centroid of each cluster (with the mean)</h3>
+<h3 id="4-associate-samples-to-their-closest-centroid-with-squared-euclidean-distance-">4. Associate samples to their closest centroid (with squared euclidean distance)</h3>
+<h3 id="5-repeat-until-centroids-changes-very-little">5. Repeat until centroids changes very little</h3>
 </div>
 </div>
 </div><aside class="notes">
@@ -2243,8 +2280,6 @@ as similarity. Euclidean, cosine etc.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>First sum: Each cluster</li>
-<li>Second sum: Each observation</li>
 <li><strong>Squred euclidean distance</strong> to the mean and minimise it</li>
 </ul>
 <p>This works in two steps iteratively, </p>
@@ -2282,7 +2317,24 @@ as similarity. Euclidean, cosine etc.</p>
 <p><img src="fig/thedata.png" style="height:400px; width:400px;"></img></p>
 </div>
 </div>
-</div></section>
+</div><aside class="notes">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is our data. No clusters yet</p>
+<p>This is an extreme, it is only 2 dimensions, but we will illustrate how k-means works.</p>
+<p>We will set K to be 2.</p>
+<p>We will start by throwing out 2 centroids (POINTS)
+and color each sample here depending on what cluster it belongs to.</p>
+<p>Blue = Cluster 1
+Red = Cluster 2</p>
+</div>
+</div>
+</div>
+    </aside></section>
     </section><section>
     <section>
     
@@ -2295,7 +2347,24 @@ as similarity. Euclidean, cosine etc.</p>
 <p><img src='fig/kmeans1.jpg' style="height:400px; width:400px;"></img></p>
 </div>
 </div>
-</div></section>
+</div><aside class="notes">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Look! They ended up in the bottom left.</p>
+<p>The big blue dot is  the centroid of the first cluster
+The big red dot is the centroid of the second cluster</p>
+<p>The blues belong to blue as their distance to blue is shorter according
+to squared euclidean distance</p>
+<p>We have now assigned all the samples to one of the clusters. And this is to be noted. K-means always clusters all data. No-one is left behind.</p>
+<p>Now it is time to make the centroids be centroids of the data. We MOVE them to the center of the samples</p>
+</div>
+</div>
+</div>
+    </aside></section>
     </section><section>
     <section>
     
@@ -2306,6 +2375,18 @@ as similarity. Euclidean, cosine etc.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="update-the-centroids-move-clusters-">Update the centroids (Move clusters)</h1>
 <p><img src="fig/km2.jpg" style="height:400px; width:400px;"></img></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>When we have moved the centroids, </p>
+<p>the closest distance for the blue sample down to the left </p>
+<p>is no longer blue, but red,</p>
+<p>so we better update their color.</p>
 </div>
 </div>
 </div></section>
@@ -2319,17 +2400,6 @@ as similarity. Euclidean, cosine etc.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="recalculate-what-is-the-closest-center-update-colors-">Recalculate what is the closest center (Update colors)</h1>
 <p><img src='fig/kmeans3.jpg' style="height:400px; width:400px;" ></img></p>
-</div>
-</div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="iterate">Iterate</h1>
 </div>
 </div>
@@ -2382,7 +2452,21 @@ as similarity. Euclidean, cosine etc.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>$$\underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_{i=1}^{k} \sum_{\mathbf x \in S_i} \left\| \mathbf x - \boldsymbol\mu_i \right\|^2$$</p>
-<h1 id="local-optimum">Local optimum</h1>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Disadvantages:</p>
+<h3 id="-local-optimum">* Local optimum</h3>
+<h3 id="-outliers">* Outliers</h3>
+<h3 id="-choosing-k">* Choosing K</h3>
 </div>
 </div>
 </div><aside class="notes">
@@ -2392,6 +2476,10 @@ as similarity. Euclidean, cosine etc.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>First sum: Each cluster</li>
+<li>Second sum: Each observation</li>
+</ul>
 <p>Note that the centroids can be arbitrary points in space and change just a little for each iteration.</p>
 <p><strong>can converge to a local optimum </strong>
 <strong>always will find a clustering but not guaranteed to be the best</strong></p>
@@ -2699,21 +2787,6 @@ Hang around and discuss clustering and machine learning. </p>
 <p><img src="fig/Spotify_Logo_RGB_Black.png" style="height:auto; width:auto; max-width:300px; max-height:300px; position:left;"/></p>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[25]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div></section>
     </section>
 </div>
