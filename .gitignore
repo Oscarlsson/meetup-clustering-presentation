@@ -1,4 +1,4 @@
-crawler/
+crawler/output/
 .ipynb_checkpoints/
 *.html
 *.ipynb*
